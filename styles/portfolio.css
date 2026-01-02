@@ -27,7 +27,13 @@
   background-color: white;
   color: #FD6E0A;
   border: 1px solid #FD6E0A;
+}
 
+/* Header Styles */
+.header{
+  background-image: url(../resources/images/developer.png), url(../resources/images/header_bg.png);
+  background-repeat: no-repeat;
+  background-position: left, bottom right;
 }
 
 /* Navbar Styles */
@@ -53,4 +59,37 @@ nav ul li a{
   text-decoration: none;
   font-size: 20px;
   font-weight: 400;
+}
+
+/* Banner Styles */
+.banner{
+  display: flex;
+  justify-content: space-between;
+  margin: 45px 35px 0px 230px;
+}
+.banner-greetings{
+  font-size: 45px;
+  font-weight: 600;
+  margin-bottom: 0px;
+}
+.banner-name{
+  font-size: 85px;
+  font-weight: 700;
+  margin-top: 0px;
+  margin-bottom: 20px;
+}
+.banner-description{
+  color: rgba(117, 117, 117, 1);
+  font-size: 18px;
+  font-weight: 400;
+  margin-top: 0px;
+  margin-bottom: 0px;
+}
+.banner button{
+  margin-top: 20px;
+  margin-right: 30px;
+}
+.banner-pic{
+  width: 584px;
+  height: 676px;
 }
