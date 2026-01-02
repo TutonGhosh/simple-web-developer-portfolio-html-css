@@ -11,8 +11,21 @@
 .text-primary{
   color: #FD6E0A;
 }
+.secondary-bg{
+  background-color: rgba(255, 248, 243, 1);
+}
 .dark-2{
   color: #757575;
+}
+.section-title{
+  color: rgba(24, 24, 24, 1);
+  font-size: 35px;
+  font-weight: 700;
+}
+.section-description{
+  color: rgba(117, 117, 117, 1);
+  font-size: 18px;
+  font-weight: 400;
 }
 .btn-primary{
   background-color: #FD6E0A;
@@ -92,4 +105,38 @@ nav ul li a{
 .banner-pic{
   width: 584px;
   height: 676px;
+}
+
+/* Main Styles */
+main{
+  max-width: 1140px;
+  margin: 0 auto;
+}
+
+/* About Me Styles */
+.about{
+  margin-top: 130px;
+  border-radius: 10px;
+  padding: 100px 155px;
+  text-align: center;
+}
+.about-me{
+  border: 1px solid rgba(0, 0, 0, 1);
+  background-color: white;
+}
+.about-items{
+  display: flex;
+  justify-content: space-around;
+}
+.about-item h4{
+  color: rgba(117, 117, 117, 1);
+  font-size: 20px;
+  font-weight: 400;
+  margin-bottom: 0px;
+}
+.about-item p{
+  margin-top: 5px;
+  color: rgba(117, 117, 117, 1);
+  font-size: 20px;
+  font-weight: 600;
 }
