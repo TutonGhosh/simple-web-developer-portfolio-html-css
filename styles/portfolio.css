@@ -200,3 +200,61 @@ main{
   font-size: 16px;
   font-weight: 400;
 }
+
+/* Footer Styles */
+footer{
+  /* height: 780px; */
+  background-color: rgba(255, 248, 243, 1);
+}
+.footer-section{
+  display: flex;
+  gap: 120px;
+  padding-top: 130px;
+  max-width: 1140px;
+  height: 780px;
+  margin: 0 auto;
+}
+.left-side h2, .right-side h2{
+  color: rgba(24, 24, 24, 1);
+  font-size: 35px;
+  font-weight: 700;
+}
+.left-side p{
+  color: rgba(71, 71, 71, 1);
+  font-size: 16px;
+  font-weight: 400;
+}
+.left-side img{
+  margin-right: 25px;
+}
+.right-side .contact input, textarea{
+  display: block;
+  margin-bottom: 25px;
+}
+.right-side input[type="text"]{
+  width: 461px;
+  height: 64px;
+  font-size: 15px;
+  padding: 10px;
+  border: 0;
+  border-radius: 5px;
+  background: rgba(255, 255, 255, 1);
+}
+.right-side input[type="email"]{
+  width: 461px;
+  height: 64px;
+  font-size: 15px;
+  padding: 10px;
+  border: 0;
+  border-radius: 5px;
+  background: rgba(255, 255, 255, 1);
+}
+.right-side textarea{
+  width: 461px;
+  height: 180px;
+  padding: 10px;
+  font-size: 15px;
+  border: 0;
+  border-radius: 5px;
+  background: rgba(255, 255, 255, 1);
+}
