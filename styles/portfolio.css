@@ -11,6 +11,9 @@
 .text-primary{
   color: #FD6E0A;
 }
+.text-center{
+  text-align: center;
+}
 .secondary-bg{
   background-color: rgba(255, 248, 243, 1);
 }
@@ -119,9 +122,11 @@ main{
   border-radius: 10px;
   padding: 100px 155px;
   text-align: center;
+  margin-bottom: 130px;
 }
 .about-me{
-  border: 1px solid rgba(0, 0, 0, 1);
+  border-radius: 10px;
+  padding: 10px;
   background-color: white;
 }
 .about-items{
@@ -139,4 +144,25 @@ main{
   color: rgba(117, 117, 117, 1);
   font-size: 20px;
   font-weight: 600;
+}
+
+/* What I Do Styles */
+.skills > p{
+  width: 900px;
+  margin: 0 auto;
+}
+.skills-container{
+  margin-top: 80px;
+  display: flex;
+  gap: 25px;
+  margin-bottom: 130px;
+}
+.skill{
+  padding: 25px;
+  border-radius: 10px;
+  box-shadow: 0px 6px 50px 0px rgba(0, 0, 0, 0.06);
+  background-color: rgba(255, 255, 255, 1);
+}
+.skill:hover{
+  transform: scale(1.1);
 }
