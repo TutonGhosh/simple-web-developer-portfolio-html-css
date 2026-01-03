@@ -52,7 +52,7 @@ hr{
 .header{
   background-image: url(../resources/images/developer.png), url(../resources/images/header_bg.png);
   background-repeat: no-repeat;
-  background-position: left, bottom right;
+  background-position: 25px center, bottom right;
 }
 
 /* Navbar Styles */
@@ -231,16 +231,7 @@ footer{
   display: block;
   margin-bottom: 25px;
 }
-.right-side input[type="text"]{
-  width: 461px;
-  height: 64px;
-  font-size: 15px;
-  padding: 10px;
-  border: 0;
-  border-radius: 5px;
-  background: rgba(255, 255, 255, 1);
-}
-.right-side input[type="email"]{
+.right-side input[type="text"], input[type="email"]{
   width: 461px;
   height: 64px;
   font-size: 15px;
