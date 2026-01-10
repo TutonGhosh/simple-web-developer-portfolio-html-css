@@ -318,6 +318,10 @@ footer{
   .skill, .resume-column, .footer-section{
     padding: 20px;
   }
+  .skill{
+    margin-left: 25px;
+    margin-right: 25px;
+  }
   .resume-column{
     margin-top: 10px;
   }
