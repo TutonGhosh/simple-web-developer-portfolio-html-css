@@ -125,7 +125,6 @@ main{
   border-radius: 10px;
   padding: 100px 155px;
   text-align: center;
-  margin-bottom: 130px;
 }
 .about-me{
   border-radius: 10px;
@@ -150,6 +149,9 @@ main{
 }
 
 /* What I Do Styles */
+.skills{
+  margin-top: 130px;
+}
 .skills > p{
   width: 900px;
   margin: 0 auto;
@@ -158,7 +160,6 @@ main{
   margin-top: 80px;
   display: flex;
   gap: 25px;
-  margin-bottom: 130px;
 }
 .skill{
   padding: 25px;
@@ -172,6 +173,7 @@ main{
 
 /* Resume Styles */
 .resume{
+  margin-top: 130px;
   margin-bottom: 130px;
 }
 .resume-column{
@@ -260,10 +262,8 @@ footer{
   .header{
     background-image: none;
   }
-  nav, nav ul, .banner, .about-items{
-    justify-content: center;
+  nav, nav ul, .banner, .about-items, .skills-container{
     flex-direction: column;
-    align-items: center;
   }
   nav{
     margin: 10px;
@@ -285,14 +285,31 @@ footer{
   .banner-content h3, h1{
     text-align: center;
   }
+  .banner-content h3{
+    font-size: 35px;
+  }
   .banner-content h1{
     font-size: 60px;
   }
-  .about{
+  .about, .skill{
     padding: 0;
     margin-top: 0;
+    margin-bottom: 0;
   }
   .about-item p{
     margin-bottom: 0;
+  }
+  .skills p{
+    width: auto;
+  }
+  .skills{
+    margin-top: 50px;
+    margin-bottom: 0;
+  }
+  .skills-container{
+    margin-top: 50px;
+  }
+  .skill{
+    padding: 20px;
   }
 }
