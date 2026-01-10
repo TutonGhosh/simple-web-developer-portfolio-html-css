@@ -174,7 +174,6 @@ main{
 /* Resume Styles */
 .resume{
   margin-top: 130px;
-  margin-bottom: 130px;
 }
 .resume-column{
   margin-top: 80px;
@@ -262,7 +261,7 @@ footer{
   .header{
     background-image: none;
   }
-  nav, nav ul, .banner, .about-items, .skills-container{
+  nav, nav ul, .banner, .about-items, .skills-container, .resume-column{
     flex-direction: column;
   }
   nav{
@@ -296,6 +295,10 @@ footer{
     margin-top: 0;
     margin-bottom: 0;
   }
+  .about-me{
+    margin-top: 100px;
+    background-color: #FFF8F3;
+  }
   .about-item p{
     margin-bottom: 0;
   }
@@ -303,13 +306,20 @@ footer{
     width: auto;
   }
   .skills{
-    margin-top: 50px;
+    margin-top: 100px;
     margin-bottom: 0;
   }
-  .skills-container{
-    margin-top: 50px;
+  .skills-container, .resume{
+    margin-top: 100px;
   }
-  .skill{
+  .skill, .resume-column{
     padding: 20px;
+  }
+  .resume-column{
+    margin-top: 10px;
+  }
+  .edu-heading, .exp-heading{
+    text-align: center;
+    margin-top: 0;
   }
 }
