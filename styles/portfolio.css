@@ -261,7 +261,7 @@ footer{
   .header{
     background-image: none;
   }
-  nav, nav ul, .banner, .about-items, .skills-container, .resume-column{
+  nav, nav ul, .banner, .about-items, .skills-container, .resume-column, .footer-section{
     flex-direction: column;
   }
   nav{
@@ -302,17 +302,20 @@ footer{
   .about-item p{
     margin-bottom: 0;
   }
+  .about-items{
+    padding-bottom: 30px;
+  }
   .skills p{
     width: auto;
   }
-  .skills{
+  .skills, .resume, footer{
     margin-top: 100px;
     margin-bottom: 0;
   }
-  .skills-container, .resume{
-    margin-top: 100px;
+  .skills-container{
+    margin-top: 50px;
   }
-  .skill, .resume-column{
+  .skill, .resume-column, .footer-section{
     padding: 20px;
   }
   .resume-column{
@@ -320,6 +323,16 @@ footer{
   }
   .edu-heading, .exp-heading{
     text-align: center;
+    margin-top: 0;
+  }
+  .footer-section{
+    gap: 50px;
+    height: auto;
+  }
+  .right-side input[type="text"], input[type="email"], .right-side textarea{
+    width: calc(100% - 20px);
+  }
+  .right-side h2{
     margin-top: 0;
   }
 }
