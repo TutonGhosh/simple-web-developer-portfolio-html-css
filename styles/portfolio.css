@@ -249,3 +249,43 @@ footer{
   border-radius: 5px;
   background: rgba(255, 255, 255, 1);
 }
+
+
+.hide{
+  display: none;
+}
+
+/* Small Device Responsive */
+@media screen and (max-width: 576px) {
+  .header{
+    background-image: none;
+  }
+  nav, nav ul, .banner{
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+  }
+  nav{
+    margin: 10px;
+  }
+  nav ul{
+    gap: 20px;
+  }
+  nav button{
+    width: 200px;
+  }
+  .banner{
+    margin: 20px;
+  }
+  .banner-pic{
+    margin-top: 20px;
+    width: 100%;
+    height: auto;
+  }
+  .banner-content h3, h1{
+    text-align: center;
+  }
+  .banner-content h1{
+    font-size: 60px;
+  }
+}
