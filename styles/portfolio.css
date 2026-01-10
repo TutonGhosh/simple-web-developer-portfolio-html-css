@@ -204,7 +204,7 @@ main{
 
 /* Footer Styles */
 footer{
-  /* height: 780px; */
+  margin-top: 130px;
   background-color: rgba(255, 248, 243, 1);
 }
 .footer-section{
